@@ -1,0 +1,35 @@
+/* Remove extra spacing from table cells */
+.table {
+    width: 100%;
+    margin: 0;
+    border-collapse: collapse; /* Removes default cell spacing */
+}
+
+/* Adjust padding for a compact look */
+.table td, .table th {
+    padding: 8px 10px !important; /* Reduce padding */
+    margin: 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+/* Fix Image Alignment */
+.img-thumbnail {
+    max-width: 60px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+/* Reduce spacing around the container */
+.container-fluid {
+    padding: 0 10px;
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+    .table td, .table th {
+        padding: 5px 8px !important; /* Further reduce padding for mobile */
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,87 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+/* .error {
+    color: red;
+    font-size: 0.875rem;
+} */
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.d-grid {
+    margin-top: 10px;
+}
+
+.text-center a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.text-center a:hover {
+    text-decoration: underline;
+}
+
+.input-error {
+    color: red;                /* Red text color to indicate error */
+    font-size: 14px;           /* Slightly smaller font size */
+    font-weight: bold;         /* Make the text bold */
+    margin-top: 5px;           /* Add a little space above the error */
+    display: block;            /* Ensure the error is displayed on a new line */
+    text-align: left;          /* Align the text to the left */
+    background-color: #ffe6e6; /* Light red background for emphasis */
+    padding: 5px;              /* Add padding around the text */
+    border-radius: 4px;        /* Rounded corners */
+    border: 1px solid #ff0000; /* Red border to highlight the error */
+}
+
+.error {
+    color: #dc3545; /* Red color for error text */
+    font-size: 14px; /* Adjust font size */
+    font-weight: bold; /* Make it bold for emphasis */
+    margin-top: 7px; /* Add some spacing from the element above */
+    display: block; /* Ensure it takes up its own line */
+}
